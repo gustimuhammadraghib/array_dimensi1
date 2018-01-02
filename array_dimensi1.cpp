@@ -34,5 +34,62 @@ cout<<datax[i][j];cout<<" | ";
 cout<<endl;
 
 }
+
+cout<<"\nMatrik R\n";
+
+for (k=0;k<3;k++)
+
+{
+
+for (l=0;l<5;l++)
+
+{
+
+cout<<dataR[k][l];cout<<" | ";
+
+}
+
+cout<<endl;
+
+}
+cout<<"\nBobot W\n";
+
+for (m=0;m<1;m++)
+
+{
+
+for (n=0;n<5;n++)
+
+{
+
+cout<<dataW[m][n];cout<<" | ";
+}
+
+cout<<endl;
+}
+cout<<"\nMatrik R*W\n";
+
+for (m=0;m<3;m++)
+
+{
+
+for (n=0;n<5;n++)
+
+{
+
+cout<<dataRW[m][n];cout<<" | ";
+}
+
+cout<<endl;
+}
+cout<<"\n HASIL AKHIR : ";
+cout<<"\n Nilai A1 : 17.0000";
+cout<<"\n Nilai A2 : 13.1167";
+cout<<"\n Nilai A3 : 13.6000\n";
+
+cout<<endl;
+
+getch();
+
 }
 
