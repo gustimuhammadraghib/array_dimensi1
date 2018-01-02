@@ -18,6 +18,21 @@ cout<<"\t\t\tNPM 		: 16630904\n";
 cout<<"\t\t\tPROGRAM 	: TEKNIK INFORMATIKA\n";
 cout<<"\t\t\tTEKNIK 	: MENGGUNAKAN FOR\n";
 cout<<"\n MATRIK X\n";
+for (i=0;i<3;i++)
+
+{
+
+for (j=0;j<5;j++)
+
+{
+
+cout<<datax[i][j];cout<<" | ";
+
+
 }
-	
+
+cout<<endl;
+
+}
+}
 
